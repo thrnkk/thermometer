@@ -1,5 +1,4 @@
 # thermometer
-<<<<<<< HEAD
 
 ## Project setup
 ```
