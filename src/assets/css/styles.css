@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(187, 201, 204); */
+
+    background: url('../pattern.png')
+}
+
+.header {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.thermometer {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 500px;
+    border: 2px solid rgb(37, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+}
